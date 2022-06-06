@@ -4,7 +4,7 @@
 /**
  * * main - Most important part of the code
  *
- *  Return: 0 if succeeded
+ *  Return: 0 if succeeded right
  */
 int main(void)
 {
