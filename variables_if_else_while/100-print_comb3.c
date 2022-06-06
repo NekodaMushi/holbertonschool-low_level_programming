@@ -4,21 +4,21 @@
 /**
  * * main - Most important part of the code
  *
- *  Return: 0 if succeeded right
+ *  Return: 0 if succeed right
  */
 int main(void)
 {
-	int d;
-	int u;
+	int decimal;
+	int unit;
 
-	for (d = 48; d <= 57; d++)
+	for (decimal = 48; decimal <= 57; decimal++)
 	{
-		for (u = 48; u <= 57; u++)
+		for (unit = decimal + 1; unit <= 57; unit++)
 		{
-			putchar(d);
-			putchar(u);
-			if (d == 57 && u == 57)
-				break;
+			putchar(decimal);
+			putchar(unit);
+			if (decimal == 56 && unit == 57)
+				continue;
 			putchar(44);
 			putchar(32);
 		}
