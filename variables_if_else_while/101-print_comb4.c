@@ -8,10 +8,11 @@
  */
 int main(void)
 {
-	int h;
 	int d;
 	int u;
-	for (h = 48; d < 57; h++)
+	int h;
+
+	for (h = 48; h < 57; h++)
 	{
 		for (d = h + 1; d < 57; d++)
 		{
