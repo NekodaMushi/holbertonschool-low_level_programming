@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Most important part of the code
+ * print_alphabet - fct is printing alphabet using _putchar
  *
  * Return: 0 if succeeded
  */
