@@ -13,6 +13,6 @@ int print_last_digit(int a)
 	{
 		last = last * -1;
 	}
-	_putchar(last);
+	_putchar(last + 48);
 	return (last);
 }
