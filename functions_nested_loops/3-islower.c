@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - fct is printing alphabet 10x using _putchar
- *
+ * _islower - initial fct
+ * @c: ASCII variable used by fct
  * Return: 0 if succeeded
  */
 int _islower(int c)
