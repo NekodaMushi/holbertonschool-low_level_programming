@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_times_table - fct is printing multiplication table
- *
+ * @n: number used as exemple
  * Return: 0 if succeeded
  */
 void print_times_table(int n)
