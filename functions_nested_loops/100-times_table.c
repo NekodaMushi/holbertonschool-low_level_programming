@@ -40,4 +40,10 @@ void print_times_table(int n)
 			i++;
 		}
 	}
+
+	if (n == 0)
+	{
+		_putchar('0');
+		_putchar('\n');
+	}
 }
