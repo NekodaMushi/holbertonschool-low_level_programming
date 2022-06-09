@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isdigit - check for uppercase
- * @c: var to be checked
+ * mul - multiplying
+ * @a: var to be checked
+ * @b: var to be multiplying
  * Return: Always 0.
  */
 int mul(int a, int b)
