@@ -2,7 +2,7 @@
 
 /**
  * print_square - Entry point
- * @n: Var to be used
+ * @size: Var to be used
  * Return: Always 0.
  */
 void print_square(int size)
@@ -17,7 +17,7 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-			_putchar('\n');
+			_putchar('\n')
 		}
 	}
 	else
