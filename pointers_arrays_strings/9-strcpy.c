@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copies the string pointed to by src
+ * _strcpy - copies the string pointed to by src.
  *
  * @dest: first var
  * @src: var to be used
