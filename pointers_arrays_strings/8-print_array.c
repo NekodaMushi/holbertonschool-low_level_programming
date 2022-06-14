@@ -4,8 +4,8 @@
 /**
  * print_array - prints n elements of an array of integers
  *
- * @str: string cut in half
- *
+ * @a: first var
+ * @n : var to be used
  */
 
 void print_array(int *a, int n)
