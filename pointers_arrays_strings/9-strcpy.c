@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *_strcpy - copies the string pointed to by src
+ * _strcpy - copies the string pointed to by src
  *
  * @dest: first var
- * @src : var to be used
+ * @src: var to be used
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -16,5 +16,6 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }
