@@ -6,6 +6,8 @@
  *
  * @dest: first var
  * @src: var to be used
+ *
+ * Return: dest if succeeded
  */
 char *_strcpy(char *dest, char *src)
 {
