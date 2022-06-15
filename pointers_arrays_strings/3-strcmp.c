@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strncat - function that concatenates two strings.
- * @dest: var to be used
- * @src: var to be used
- * @n: lengh of src
+ * _strcmp - function that compares two strings.
+ * @s1: var to be used
+ * @s2: var to be used
  * Return: Always 0.
  */
 int _strcmp(char *s1, char *s2)
