@@ -3,8 +3,10 @@
 
 /**
  * reverse_array - function thar rev.
+ *
  * @a: var to be used
- * @b: var to be used
+ * @n: var to be used
+ *
  * Return: Always 0.
  */
 void reverse_array(int *a, int n)
