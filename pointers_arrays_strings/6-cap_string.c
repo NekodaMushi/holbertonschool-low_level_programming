@@ -1,10 +1,10 @@
-
-
 #include "main.h"
 #include <stdio.h>
 
 /**
- * string_toupper - changes all lowercase letters of a string to uppercase.
+ * cap_string - function that capitalizes all words of a string.
+ *
+ * @s: string
  *
  * Return: Always string.
  */
