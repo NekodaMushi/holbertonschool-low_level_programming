@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  * @n: string used in recursion
  * @i: var used to check square
  *
- * Return: fct
+ * Return: function
  */
 int _root(int n, int i)
 {
