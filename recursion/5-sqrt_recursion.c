@@ -13,10 +13,17 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 	else
-		return (root(n, 0));
+		return (_root(n, 0));
 }
-
-int root(int n, int i)
+/**
+ * _root - function that returns the natural square _root of a number.
+ *
+ * @n: string used in recursion
+ * @i: var used to check square
+ *
+ * Return: fct
+ */
+int _root(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
@@ -24,6 +31,6 @@ int root(int n, int i)
 		return (i);
 	else
 	{
-		return (root(n, i + 1));
+		return (_root(n, i + 1));
 	}
 }
