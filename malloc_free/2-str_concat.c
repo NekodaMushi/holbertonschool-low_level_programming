@@ -12,6 +12,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *rtn = malloc(strlen(s1) + strlen(s2) + 1);
 	int p, q = 0;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -30,5 +31,5 @@ char *str_concat(char *s1, char *s2)
 	for (p = 0; (rtn[q] = s2[p]) != '\0'; ++p, ++q)
 	{
 	}
-	return rtn;
+	return (rtn);
 }
