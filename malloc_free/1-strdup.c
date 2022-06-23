@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * create_array - function that creates an array of chars
- * @size: size of array
- * @c: char of array
- * Return: str
+ * _strdup - fct that returns pointer to newly allocated space
+ * @str: size of array
+ * Return: ptr
  */
 char *_strdup(char *str)
 {
