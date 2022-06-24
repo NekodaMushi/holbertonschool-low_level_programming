@@ -10,26 +10,44 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *rtn = malloc(strlen(s1) + strlen(s2) + 1);
-	int p, q = 0;
+	int i, j;
+	char *s;
+	int s1_lengh = strlen(s1);
+	int s2_lengh = strlen(s2);
+	int size = (s1_lengh + s2_lengh + 1);
 
 	if (s1 == NULL)
-	{
-		s1 = "";
-	}
-	if (s2 == NULL)
-	{
-		s2 = "";
-	}
-	if (rtn == NULL)
-	{
 		return (NULL);
-	}
-	for (p = 0; (rtn[q] = s1[p]) != '\0'; ++p, ++q)
-	{
-	}
-	for (p = 0; (rtn[q] = s2[p]) != '\0'; ++p, ++q)
-	{
-	}
-	return (rtn);
+	if (s2 == NULL)
+		return (NULL);
+
+	s = malloc(sizeof(char) * size);
+
+	if (s == NULL)
+		return (NULL);
+
+	for (i = 0; i < s1_lengh; i++)
+		s[i] = s1[i];
+	for (j = 0; j < s2_lengh; i++, j++)
+		s[i] = s2[j];
+
+	s[size - 1] = '\0';
+
+	return (s);
+}
+#include "main.h"
+#include <stdio.h>
+
+/**
+ *  _strlen - returns the length of a string.
+ * @s: var to be used
+ * Return: Always 0.
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
