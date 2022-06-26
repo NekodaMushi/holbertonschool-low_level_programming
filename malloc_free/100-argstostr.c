@@ -14,14 +14,11 @@ char *argstostr(int ac, char **av)
 
 	int i;
 
-	if (ac == 0)
+	if (ac == 0) || av == NULL)
 		return (NULL);
 
 	for (i = 0; i < ac; i++)
 		printf("%s\n", av[i]);
-
-	if (av == NULL)
-		return (NULL);
 
 	return (0);
 }
