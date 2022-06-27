@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- *str_concat - concatenates two strings
+ *_calloc - allocates memory for an array
  *@nmemb: first var
  *@size: second var
  *Return: target
