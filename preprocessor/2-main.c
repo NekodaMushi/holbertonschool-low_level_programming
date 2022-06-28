@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	printf("%d\n", NAME);
+	printf("%s\n", NAME);
 
 	return (0);
 }
