@@ -15,9 +15,7 @@ typedef struct dog
 	char *owner;
 } dog_file;
 
-/**
- * Functions Prototype from this project:
- **/
+/*Functions Prototype from this project:*/
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
