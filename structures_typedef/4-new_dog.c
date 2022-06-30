@@ -18,9 +18,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog_t *doge;
 
-	ncopy = strdup(name);
+	ncopy = _strdup(name);
 	*ncopy = *name;
-	ocopy = strdup(owner);
+	ocopy = _strdup(owner);
 	*ocopy = *owner;
 
 	doge = malloc(sizeof(dog_t));
@@ -30,9 +30,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doge);
 		return (NULL);
 	}
-	doge->name = name;
+	doge->name = ncopy;
 	doge->age = age;
-	doge->owner = owner;
+	doge->owner = ocopy;
 
 	return (doge);
 }
