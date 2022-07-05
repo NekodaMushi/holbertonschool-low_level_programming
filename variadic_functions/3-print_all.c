@@ -42,7 +42,7 @@ void print_all(const char *const format, ...)
 }
 
 /**
- * _printchar - print char
+ * print_char - print char
  * @list: list to print
  */
 
@@ -52,7 +52,7 @@ void print_char(va_list list)
 }
 
 /**
- * print_strings - print string type
+ * print_char_pointer - print string type
  * @list: list to print
  */
 
@@ -76,7 +76,7 @@ void print_float(va_list list)
 }
 
 /**
- * print_numbers - print int type
+ * print_int - print int type
  * @list: list to print
  */
 
