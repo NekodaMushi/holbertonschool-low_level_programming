@@ -3,7 +3,7 @@
 /**
  * print_all - print anything
  *
- * @format: numbers of parameters.
+ * @format: numbers of parameters
  *
  * Return: Nothing
  */
