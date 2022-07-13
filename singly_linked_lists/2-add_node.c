@@ -25,7 +25,11 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (*head);
 }
-
+/**
+ * _strlen - return length of string
+ * @str: string checker
+ * Return: (length)
+ */
 int _strlen(const char *str)
 {
 	int i = 0;
