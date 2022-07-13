@@ -9,7 +9,6 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new;
 	list_t *last;
-
 	/*1 allocate node */
 	new = malloc(sizeof(list_t));
 	if (!new)
@@ -32,10 +31,31 @@ list_t *add_node_end(list_t **head, const char *str)
 		*head = new;
 		return (new);
 	}
+	/*4.5 pointer pointe sur last*/
+	last = *head;
 	/*5 Otherwise cross until last node*/
 	while (last->next != NULL)
+	{
 		last = last->next;
+	}
 
 	/*6 Change the next of last node*/
-	last->next = new
+	last->next = new;
+	return (new);
+}
+
+/**
+ * _strlen - return length of string
+ * @str: string checker
+ * Return: (length)
+ */
+int _strlen(const char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
