@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_node - fct that adds a new node at the end
+ * add_node_end - fct that adds a new node at the end
  * @head: start of linked list
  * @str: next node
  * Return: number of elements
