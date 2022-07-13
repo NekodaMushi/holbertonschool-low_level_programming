@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <stddef.h>
+#include <string.h>
 
 /**
  * struct node - singly linked list
@@ -30,5 +30,6 @@ void free_list(list_t *head);
 
 /*Function created before*/
 int _putchar(char c);
+int _strlen(const char *str);
 
 #endif
