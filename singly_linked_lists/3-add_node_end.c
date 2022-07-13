@@ -21,8 +21,8 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(new);
 		return (NULL);
 	}
-	/*3 new node gonna be the last node,
-	 so make next to it NULL*/
+	/*3 new node gonna be the last node,*/
+	/*so make next to it NULL*/
 	new->next = NULL;
 
 	/*4 if linked list empty, make new as head*/
