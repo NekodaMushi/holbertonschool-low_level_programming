@@ -14,15 +14,26 @@ list_t *add_node(list_t **head, const char *str)
 	/*if new node doesn't exist return rien*/
 	if (new == NULL)
 		return (NULL);
-
+	/**
+	 * calcul length of string inside new node
+	 *copy and paste str date inside new node
+	 *summury of two last lines: put data in new
+	 */
 	new->len = _strlen(str);
 	new->str = strdup(str);
+	/** ??? next step mean
+	 */
 	if (new->str == NULL)
 	{
+		/**free memory
+		 * and return null
+		 */
 		free(new);
 		return (NULL);
 	}
+	/* new node is the head now*/
 	new->next = *head;
+
 	*head = new;
 
 	return (*head);
