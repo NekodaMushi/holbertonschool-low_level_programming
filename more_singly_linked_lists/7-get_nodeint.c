@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- * pop_listint - fct that erase node from start of list
+ * get_nodeint_at_index - that returns the nth node from a list
  * @head: head of the list
+ * @index: referencial
  * Return: 0 if succeed
  */
 

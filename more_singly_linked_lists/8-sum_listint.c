@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * pop_listint - fct that erase node from start of list
+ * sum_listint - fct that addition the value from every node from list
  * @head: head of the list
  * Return: 0 if succeed
  */
@@ -11,6 +11,7 @@ int sum_listint(listint_t *head)
 	listint_t *node;
 	unsigned int sum = 0;
 	unsigned int get_value = 0;
+
 	node = head;
 
 	if (head == NULL)

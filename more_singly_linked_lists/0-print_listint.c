@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_list - fct that prints elements of list
+ * print_listint - fct that prints elements of list
  * @h: list address
  * Return: number of elements
  */
