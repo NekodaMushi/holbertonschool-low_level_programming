@@ -13,11 +13,15 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
-
+	/**tmp point to head to save his location*/
 	tmp = *head;
+	/** data inside head is save into value var*/
 	value = (*head)->n;
+	/** designing node next to head as new head */
 	*head = (*head)->next;
+	/*free what was called head seconds ago*/
 	free(tmp);
 
+	/** Return the data saved from head*/
 	return (value);
 }
