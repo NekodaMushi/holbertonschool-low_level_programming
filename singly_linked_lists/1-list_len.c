@@ -17,3 +17,21 @@ size_t list_len(const list_t *h)
 	}
 	return (nb_of_node);
 }
+/**
+ * increase count and move to next node
+ * until reaching end of L.L
+ * return le compteur de node
+ */
+
+#include "main.h"
+
+size_t list_len(const list_t *h)
+{
+	unsigned int count;
+
+	while (h != NULL)
+	{
+		count++;
+		h = h->next;
+	}
+}
