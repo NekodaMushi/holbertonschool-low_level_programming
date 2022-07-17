@@ -26,6 +26,14 @@ size_t print_listint_safe(const listint_t *head)
 	return (number_of_node);
 }
 
+/**
+ *loop_checker - fct that check where the loop is starting
+ *@head: head of the list
+ *@current_node: location to check where the loop start
+ *@index: referential used to find the loop
+ *Return: 1 when loop found.
+ */
+
 int loop_checker(const listint_t *head, const listint_t *current_node, size_t index)
 {
 	size_t counter = 0;
