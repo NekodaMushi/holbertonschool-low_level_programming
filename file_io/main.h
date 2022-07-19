@@ -8,6 +8,7 @@
 #include <sys/stat.h>
 #include <stddef.h>
 #include <fcntl.h>
+#include <string.h>
 
 /*Function created before*/
 int _putchar(char c);
