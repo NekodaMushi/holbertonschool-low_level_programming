@@ -2,11 +2,11 @@
 
 /**
  * read_textfile - fct that read a file's content
- *  and create a new file with this content
+ *  and print into format output
  *
  * @filename: name of the file
  * @letters: var used
- * @return ssize_t
+ * Return: What's printed
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
