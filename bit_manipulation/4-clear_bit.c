@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_bit - Convert binary to unsigned int
+ * clear_bit - Set bit from 1 to 0 at given index
  * @n: binary number
  * @index: Position of bit
  * Return: Value of bit at index
