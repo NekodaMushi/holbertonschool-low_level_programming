@@ -3,7 +3,7 @@
 /**
  * binary_to_uint - Convert binary to unsigned int
  * @b: binary number
- * Return: Always 0.
+ * Return: Nothing
  */
 
 void print_binary(unsigned long int n)
