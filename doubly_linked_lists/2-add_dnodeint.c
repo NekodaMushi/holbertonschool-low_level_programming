@@ -6,7 +6,7 @@
  * @n: data inside node
  * Return: address of the new element
  */
-dlistint_t *add_dnodeint(dlistint_t *(*head), const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
 
