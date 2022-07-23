@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *print_listint_saf - fct that print safely
+ *print_listint_safe - fct that print safely
  *@head: head of the list
  *Return: number of nodes in the list
  */
@@ -29,21 +29,21 @@ size_t print_listint_safe(const listint_t *head)
 /**
  *loop_checker - fct that check where the loop is starting
  *@head: head of the list
- *@current_node: location to check where the loop start
- *@index: referential used to find the loop
+ *@current: location to check where the loop start
+ *@idx: referential used to find the loop
  *Return: 1 when loop found.
  */
 
-int loop_checker(const listint_t *head, const listint_t *current_node, size_t index)
+int loop_checker(const listint_t *head, const listint_t *current, size_t idx)
 {
 	size_t counter = 0;
 
-	while (head != current_node)
+	while (head != current)
 	{
 		head = head->next;
 		counter++;
 	}
-	if (counter == index)
+	if (counter == idx)
 		return (1);
 
 	return (0);

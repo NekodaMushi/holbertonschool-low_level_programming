@@ -41,7 +41,7 @@ listint_t *find_listint_loop(listint_t *head);
 int _strlen(const char *str);
 
 /*Function created for this project*/
-int loop_checker(const listint_t *head, const listint_t *current_node, size_t index);
+int loop_checker(const listint_t *head, const listint_t *current, size_t idx);
 void delete_loop(listint_t *head);
 
 #endif
