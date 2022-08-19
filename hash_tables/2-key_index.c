@@ -6,7 +6,7 @@
  * @key: key's location
  * @size: size of array
  *
- * Return : Index
+ * Return: Index
  */
 
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
