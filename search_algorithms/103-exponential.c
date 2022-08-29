@@ -5,7 +5,7 @@
  *
  * @array: The array to be printed
  * @start: start of array
- * @high: end of array
+ * @end: end of array
  */
 void print_array(int *array, size_t start, size_t end)
 {
@@ -20,7 +20,7 @@ void print_array(int *array, size_t start, size_t end)
 }
 
 /**
- * binary_search - function that searches for a value in an array
+ * _binary_search - function that searches for a value in an array
  *
  * @array: pointer to first element of the array
  * @start: start of array
