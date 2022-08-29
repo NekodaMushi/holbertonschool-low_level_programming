@@ -6,6 +6,8 @@
  * @array: pointer to first element of the array
  * @size: nb of elements in array
  * @value: value to search for
+ * @min: index min referencial
+ * @max: index max referencial
  *
  * Return: 0 if succeed or -1 if fails
  */
